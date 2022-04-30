@@ -1,0 +1,105 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vorm</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="CSS/vormStyle.css" />
+    <link rel="icon" href="images/skoolicon.jpg" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="VormNavBar">
+      <a href="Webblad1.html"
+        ><img class="skoolIcon" src="images/skoolicon.jpg"
+      /></a>
+      <h1>Vorm</h1>
+    </div>
+
+    <h3>
+      Hierdie vorm is om inligting in te samel rakende die onderwyssektor , hoe
+      dit beinvloed is deur Covid 19 ens . Die data sal verwerp word om n
+      gevolgtrekking te maak oor die negatieve gevolge wat Covid-19 op die
+      sektor gehad het en nog steeds het.
+    </h3>
+
+    <div class="container">
+      <form action="/action_page.php">
+        <label for="naamVan">Naam en Van :</label><br />
+        <input type="text" id="NaamEnVan" name="naam" /><br /><br />
+
+        <label
+          >Het die CoronaVirus die onderwyssektor positief of negatief beinvloed
+          ?</label
+        ><br />
+        <input type="radio" id="positief" name="PN" value="positief" />
+        <label for="positief"> Positief</label><br />
+        <input type="radio" id="negatief" name="PN" value="negatief" />
+        <label for="negatief"> Negatief</label><br /><br />
+
+        <label for="aanbeveling"
+          >Wat sal jy vir die onderwyssektor aanbeveel in die grendeltydperk
+          ?</label
+        ><br />
+        <textarea id="aanbeveling"></textarea><br /><br />
+
+        <label for="gevoel"
+          >Hoe voel U oor die oplossing aanlynleer op n skaal van 1 tot 10 , wat
+          deur skole gedurende die grendeltydperk voorgestel is ?</label
+        ><br />
+        <select id="number" name="number" class="dropBox">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option></select
+        ><br /><br />
+
+        <label for="aanbeveling"
+          >Watter aanlyn oplossing om te leer het vir u beste gehelp gedurende
+          die grendeltydperk ?</label
+        ><br />
+        <input type="checkbox" id="internet" name="internet" value="internet" />
+        <label for="internet"> Internet</label><br />
+        <input type="checkbox" id="calls" name="calls" value="calls" />
+        <label for="vehicle2"> Video-calls bv Zoom</label><br />
+        <input type="checkbox" id="klas" name="klas" value="klas" />
+        <label for="klas"> Whatsapp klas groepe</label><br /><br />
+
+        <label for="jaNee"
+          >Was dit swaar om aan die nuwe manier van leer aan te pas ?</label
+        ><br />
+
+        <input type="radio" id="ja" name="antw" value="ja" />
+        <label for="ja"> Ja</label><br />
+
+        <input type="radio" id="nee" name="antw" value="nee" />
+        <label for="nee"> Nee</label><br />
+
+        <input type="radio" id="beide" name="antw" value="beide" />
+        <label for="beide"> Beide</label><br /><br />
+
+        <button
+          type="button"
+          class="btn btn-success"
+          style="width: 100%"
+          onclick="submitBtn()"
+        >
+          Submit
+        </button>
+      </form>
+    </div>
+
+    <script src="javascript/vormCode.js"></script>
+  </body>
+</html>

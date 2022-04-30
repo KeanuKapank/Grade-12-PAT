@@ -1,0 +1,33 @@
+.grafiekeNavBar {
+  background-color: rgb(228, 176, 6);
+  height: auto;
+}
+
+body {
+  background-image: url("https://www.imamedia.co.za/assets/images/bg-patterns/pattern-7.png");
+}
+
+img {
+  margin: 3px;
+}
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+.grafiek {
+  text-align: center;
+  width: 75%;
+  margin: auto;
+  border: 5px solid #25af5a;
+}
+
+.grafiekeNavBar .skoolIcon {
+  text-align: left;
+  width: 2cm;
+  height: 2cm;
+  float: left;
+  margin-left: 10px;
+}

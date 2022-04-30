@@ -1,0 +1,30 @@
+body {
+  background-image: url("https://www.imamedia.co.za/assets/images/bg-patterns/pattern-7.png");
+}
+
+.NavBar {
+  background-color: rgb(228, 176, 6);
+  height: auto;
+}
+
+.NavBar .skoolIcon {
+  text-align: left;
+  width: 2cm;
+  height: 2cm;
+  float: left;
+  margin-left: 10px;
+}
+
+h1 {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  text-align: center;
+  font-weight: bold;
+}
+
+iframe {
+  margin-left: 200px;
+  width: 1000px;
+  height: 500px;
+  border: 3px solid #25af5a;
+  outline: #25af5a;
+}
